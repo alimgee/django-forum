@@ -1,1 +1,1 @@
-general diango walkthrough @ https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html
+general diango walkthrough with CBVs (lesson in django 1 but using version 4) @ https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html
