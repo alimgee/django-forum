@@ -1,1 +1,1 @@
-general diango walkthrough with CBVs (lesson in django 1 but using version 4) @ https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html
+Dango forym with CBVs and login ins using built in UserCreation form (lesson in django 1 but using django version 4) based on tutorial @ https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html
