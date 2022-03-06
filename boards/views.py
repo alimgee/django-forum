@@ -96,6 +96,8 @@ def reply_topic(request, pk, topic_pk):
             post.topic = topic
             post.created_by = request.user
             post.save()
+            topic.last_updated = timezone.now()
+            topic.save()
             return redirect('topic_posts', pk=pk, topic_pk=topic_pk)
     else:
         form = PostForm()
@@ -119,4 +121,6 @@ class PostUpdateView(UpdateView):
         post.updated_by = self.request.user
         post.updated_at = timezone.now()
         post.save()
+        post.topic.last_updated = timezone.now()
+        post.topic.save()
         return redirect('topic_posts', pk=post.topic.board.pk, topic_pk=post.topic.pk)
